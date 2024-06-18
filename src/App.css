@@ -1,0 +1,58 @@
+.container {
+  width: 1200px;
+  margin: auto 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+p {
+  font-size: 50px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  gap: 30px;
+}
+
+.box section img {
+  width: 150px;
+  height: 200px;
+}
+
+.box article img {
+  height: 20px;
+  width: 20px;
+}
+
+.box section {
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 80px;
+  width: 80px;
+}
+
+.header button {
+  height: 50px;
+}
+
+.header article {
+  display: flex;
+  gap: 20px;
+}
