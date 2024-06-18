@@ -55,7 +55,7 @@ function App() {
         <Route path="/publish" element={<Publish token={token} />} />
         <Route
           path="/payment"
-          element={paymentInfo ? <Payment info={paymentInfo} /> : ""}
+          element={token ? <Payment info={paymentInfo} /> : ""}
         />
       </Routes>
     </Router>
